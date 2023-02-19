@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div id="container">
+        <div class="excercise">
+            {% if num_b > num_a %}
+                <h2><span id="a">{{ num_b }}</span> - <span id="b">{{ num_a }}</span> = </h2>
+                <form>
+                    <div class="input-group w-50" style="margin-left: auto;margin-right: auto">
+                        <input class="form-control" type="text" placeholder="Uitkomst" id="ans">
+                        <button class="btn btn-danger" type="button" onclick="ControleMin()">Ok</button>
+                    </div>
+                </form>
+                <p class="message" id="demo"></p>
+            {% else %}
+                <h2><span id="a">{{ num_a }}</span> - <span id="b">{{ num_b }}</span> = </h2>
+                <form>
+                     <div class="input-group w-50" style="margin-left: auto;margin-right: auto">
+                        <input class="form-control" type="text" placeholder="Uitkomst" id="ans">
+                        <button class="btn btn-danger" type="button" onclick="ControleMin()">Ok</button>
+                     </div>
+                </form>
+                <p class="message" id="demo"></p>
+            {% endif %}
+            <div class="results">
+                <p><i class="fa-solid fa-circle-check"></i> <span id="correct_ans">0</span></p>
+                <p><i class="fa-solid fa-circle-xmark"></i> <span id="wrong_ans">0</span></p>
+                <button class="btn btn-danger" type="button" onclick="reset()"><i class="fa-solid fa-rotate"></i></button>
+            </div>
+        </div>
+        <div id="mybutton">
+            <a href="minOptions"><button class="returnbutton"><i class="fa-solid fa-arrow-left"></i></button></a>
+            <a href="/"><button class="homebutton"><i class="fa-solid fa-house"></i></button></a>
+        </div>
+    </div>
+{% endblock %}

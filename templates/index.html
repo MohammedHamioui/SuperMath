@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="jumbotron">
+  <h1 class="display-4 text-light">SuperMath</h1>
+    <hr class="my-4 text-light">
+  <p class="lead text-light">Leer rekenen met <span>SuperMath</span>. Maak oefeningen op basis van jouw voorkeur. Som, verschil, product en quotiënt we hebben het allemaal. Oefening baart kunst!</p>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+
+    <div class="col-xs-12 col-sm-6 col-md-3">
+        <a href="plusOptions" >
+          <div class="box">
+            <img src="../static/images/plus.jpg" alt="plus" class="menutiles">
+          </div>
+        </a>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-3">
+        <a href="minOptions">
+          <div class="box">
+            <img src="../static/images/minus.jpg" alt="plus" class="menutiles">
+          </div>
+        </a>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-3">
+        <a href="multiplyOptions">
+          <div class="box">
+              <img src="../static/images/multiply.jpg" alt="multiply" class="menutiles">
+          </div>
+        </a>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-3">
+        <a href="divideOptions">
+          <div class="box">
+             <img src="../static/images/divide.jpg" alt="divide" class="menutiles">
+          </div>
+        </a>
+    </div>
+
+  </div>
+</div>
+{% endblock %}

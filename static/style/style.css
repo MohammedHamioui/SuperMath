@@ -1,0 +1,125 @@
+@import url("https://use.typekit.net/bbl7sji.css");
+@import url("https://use.typekit.net/bbl7sji.css");
+
+#app {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #FF0000;
+}
+
+.app {
+    white-space: nowrap;
+}
+
+.logo {
+    padding: 2vh;
+    height: 7vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subtitle {
+    font-family: new-order, sans-serif;
+    text-align: center;
+    margin: 3vh 0 0 0;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    box-sizing: border-box;
+}
+
+.menutiles {
+    overflow: hidden;
+    border-radius: 2vh;
+}
+
+.menutiles:hover {
+    transition: 0.2s ease;
+    box-shadow: 1px 1px 10px black;
+}
+
+.jumbotron {
+    padding: 4rem 2rem;
+    margin-bottom: 2rem;
+    background-image: url("../images/classroom.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 0px;
+    font-family: new-order, sans-serif;
+    box-shadow: 0 3px 10px 1px #2d2d2d;
+}
+
+.jumbotron h1 {
+     font-family: good-times, sans-serif;
+}
+.jumbotron span {
+     font-family: good-times, sans-serif;
+    color: #FF0000;
+}
+
+.excercise {
+    text-align: center;
+    font-family: new-order, sans-serif;
+    color: #FF0000;
+    padding: 5vh;
+    font-size: 5rem;
+}
+
+#sumbit {
+    font-size: 5vh;
+    border-radius: 2vh;
+}
+
+.message {
+    font-size: 2pc;
+    margin: 4vh;
+}
+
+.homebutton {
+    background-color : #ff0000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 3vh;
+    border: none;
+}
+
+.returnbutton {
+    background-color : #ff0000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 3vh;
+    border: none;
+}
+
+#mybutton {
+    position: fixed;
+     bottom: -4px;
+    right: 10px;
+    margin: 2vh;
+}
+
+.results {
+    font-size: 2pc;
+    margin: 2vh;
+}
+
+.options {
+    border-radius: 2vh;
+}
+
+.options:hover {
+    transition: 0.2s ease;
+    box-shadow: 1px 1px 10px black;
+}
